@@ -9,8 +9,8 @@ python 3.6.5
 pytorch 0.4.1.post2
 ```
 ## Dataset
-The residual network is trained with [`LSUN`](http://lsun.cs.princeton.edu/2017/ "LSUN")
-The pre-trained VGG-net is used provided by pytorch. 
+The residual network is trained with [`LSUN`](http://lsun.cs.princeton.edu/2017/ "LSUN"). 
+The pre-trained VGG-net provided by pytorch is used. 
 
 ## Usage
 ```
