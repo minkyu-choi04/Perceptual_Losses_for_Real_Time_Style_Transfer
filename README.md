@@ -34,6 +34,9 @@ Resulting image:
 <img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_test_e0b8900.jpg" alt="Resulting Image" width="500"/>
 
 
+
+Samples from LSUN dataset:
+
 |Original Images|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b4700.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b3100.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b2900.jpg?raw=true" alt="Style Image" width="200"/>|
 |-------------|-------------|-------------|-------------|
 |**Resulting Images**|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b4700.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b3100.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b2900.jpg?raw=true" alt="Style Image" width="200"/>|
