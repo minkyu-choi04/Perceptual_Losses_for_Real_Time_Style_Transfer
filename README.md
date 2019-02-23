@@ -6,6 +6,9 @@ Pytorch reproduction of the paper ["Perceptual Losses for Real Time Style Transf
 python 3.6.5
 pytorch 0.4.1.post2
 ```
+## Dataset
+The residual network is trained with ["`LSUN`"](http://lsun.cs.princeton.edu/2017/ "LSUN")
+The pre-trained VGG-net is used provided by pytorch. 
 
 ## Usage
 ```
@@ -15,16 +18,22 @@ You can run your own experiment by giving parameters manually.
 
 ## Results
 Original content image (Cape Manzamo, Okinawa, Japan): 
-<img src="https://github.com/minkyu-choi04/A_Neural_Algorithm_of_Artistic_Style/blob/master/content.jpg" alt="Original Content Image" width="500"/>
+
+<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/content.jpg" alt="Original Content Image" width="500"/>
+
+
 
 Style image:
-<img src="https://github.com/minkyu-choi04/A_Neural_Algorithm_of_Artistic_Style/blob/master/style.jpg" alt="Style Image" width="500"/>
+
+<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/style.jpg" alt="Style Image" width="500"/>
+
+
 
 Resulting image:
-<img src="https://github.com/minkyu-choi04/A_Neural_Algorithm_of_Artistic_Style/blob/master/sample_output/outout49.jpg" alt="Resulting Image" width="500"/>
+
+<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_test_e0b8900.jpg" alt="Resulting Image" width="500"/>
 
 
-
-
-
-
+|Original Images|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b4700.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b3100.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_gt_e0b2900.jpg?raw=true" alt="Style Image" width="200"/>|
+-------------
+|**Resulting Images**|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b4700.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b3100.jpg" alt="Style Image" width="200"/>|<img src="https://github.com/minkyu-choi04/Perceptual_Losses_for_Real_Time_Style_Transfer/blob/master/sample_output/output_train_e0b2900.jpg?raw=true" alt="Style Image" width="200"/>|
