@@ -104,5 +104,5 @@ def image_loader(s_n, c_n, batch_s, image_size):
     #img_s = Image.open(s_n)
     img_s = transforms.functional.resize(Image.open(s_n), (image_size, image_size))
     img_s = transforms.functional.to_tensor(img_s)
-    return img_s.unsqueeze(0).repeat(1, 1, 1, 1).cuda(), img_c.unsqueeze(0).repeat(1, 1, 1, 1).cuda()
+    return img_s.unsqueeze(0).cuda(), img_c.unsqueeze(0).cuda()
 
